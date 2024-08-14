@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places,geometry"></script>
+
+</head>
+<body>
+    <h1>Find the Nearest Ice Cream Store</h1>
+    <div id="map-container">
+        <div id="map"></div>
+        <div id="loading" class="loading"></div>
+    </div>
+    <button onclick="findIceCream()">Locate Ice Cream Stores</button>
+    <div id="output"></div>
+    <ul id="placesList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
